@@ -1,0 +1,21 @@
+# Configuration file for Selenium Forest - Azure DevOps Vulnerability Scanner
+
+azure_devops:
+  organization: "your-organization-name"  # Replace with your Azure DevOps organization
+  project: "your-project-name"  # Replace with your Azure DevOps project
+  personal_access_token: "your-pat-token"  # Store securely; avoid hardcoding in production
+
+logging:
+  level: "INFO"  # Set logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+  file: "data/logs/selenium_forest.log"  # Path to the log file
+
+ai_analysis:
+  use_openai: true  # Set to true if using OpenAI for vulnerability detection
+  use_llama_index: false  # Set to true if using LlamaIndex instead of OpenAI
+  model: "gpt-4"  # Define the AI model to be used
+
+scanner:
+  scan_pipelines: true  # Enable or disable pipeline scanning
+  scan_builds: true  # Enable or disable build release scanning
+  scan_repositories: true  # Enable or disable repository scanning
+  scan_logs: true  # Enable or disable log scanning
