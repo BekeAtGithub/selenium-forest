@@ -1,5 +1,5 @@
 # SOURCE DOCUMENTATION USED TO BUILD APPLICATION;
-I didn't directly reference external documentation while guiding you, but here are the most relevant official documentation sources and learning materials related to what we built:
+
 
 ### **Azure DevOps API & Git Repositories**
 - **Azure DevOps REST API Reference**:  
