@@ -40,7 +40,11 @@
 
 ### **JSON & Report Handling**
 - **Working with JSON in Python**:  
-  -- [https://docs.python.org/3/library/json.html](https://docs.python.org/3/library/json.html)  
+  -- [https://docs.python.org/3/library/json.html](https://docs.python.org/3/library/json.html)
+
+  https://www.selenium.dev/documentation/
+
+  
 
 ---
 
