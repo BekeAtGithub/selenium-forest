@@ -4,5 +4,5 @@ requests  # HTTP library for making API calls to Azure DevOps
 python-dotenv  # Manage environment variables securely
 openai  # OpenAI API for AI-based vulnerability scanning (if used) 
 llama-index  # LlamaIndex for AI-driven data analysis (if used)
-pyyaml  # Parsing YAML files (for configuration management) 
+pyyaml  # Parsing YAML files (for configuration management)  
 logging  # Built-in Python logging module for application logging
